@@ -28,7 +28,7 @@ body {
 
 .social-container {
 	min-height: 70vh;
-	max-height: 74vh;
+	max-height: 90vh;
 	width: 43vh;
 	background-color: white;
 	background-color: var(--dark-grey);
@@ -128,3 +128,26 @@ body {
 	text-decoration: none;
 }
 
+@media only screen and (max-width:767px) {
+
+	body {
+		height: 100vh;
+	}
+	.profile-link {
+		padding: 12px;
+		width: 160%;
+	}
+
+	.profile-info {
+		gap: 0.2rem;
+	}
+
+	.profile {
+		gap: 1.1rem;
+	}
+
+	.social-container {
+		width: 43vh;
+	}
+
+}
