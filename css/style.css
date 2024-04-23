@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+:root {
+  
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+
+body {
+	background-color: var(--off-black);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-container {
+	min-height: 70vh;
+	max-height: 74vh;
+	width: 43vh;
+	background-color: white;
+	background-color: var(--dark-grey);
+	border-radius: 1rem;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.6rem;
+}
+
+.profile-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Inter", sans-serif;
+	margin-top: 2.5rem;
+	gap: 0.5rem;
+}
+
+.profile-username {
+	margin-top: 1.2rem;
+	color: var(--white);
+}
+.profile-location h5 {
+	color: var(--green);
+	font-weight: 500;
+}
+
+.profile-picture {
+	height: 100px;
+	width: 100px;
+	border-radius: 1000px;
+	background-color: white;
+	background-image: url('/assets/images/avatar-jessica.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.profile-description {
+	font-family: "Inter", sans-serif;
+	color: var(--white);
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.profile-link-container {
+	display: flex;
+	padding: 15px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.profile-links {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.profile-link {
+	padding: 12px;
+	border-radius: 7px;
+	width: 190%;
+	margin: 10px;
+	background-color: var(--grey);
+	transition: 0.5s ease-in;
+}
+
+.profile-link:hover{
+	transition: 0.5s ease-out;
+	background-color: var(--green);
+	
+	&.profile-link > a {
+		color: var(--off-black);
+	}
+}
+
+
+
+
+.profile-link > a {
+	font-family: "Inter",sans-serif;
+	color: var(--white);
+	display: flex;
+	font-size: 14px;
+	align-items: center;
+	font-weight: 600;
+	justify-content: center;
+	text-decoration: none;
+}
+
