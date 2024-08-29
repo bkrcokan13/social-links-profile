@@ -1,51 +1,58 @@
-# Frontend Mentor - Social links profile solution
+# Social Links Profile
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+A modern and visually appealing profile page showcasing social media links and personal information. This project is designed to create a clean and professional online presence.
 
-## Table of contents
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshot](#screenshot)
+- [License](#license)
+- [Contact](#contact)
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+## Demo
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+Check out the live demo: [Social Links Profile Demo](#)
 
-## Overview
+## Features
 
-### The challenge
+- Attractive profile layout with social media links.
+- Responsive design that works on both desktop and mobile devices.
+- Clean and modern design elements for a professional look.
 
-Users should be able to:
-- See hover and focus states for all interactive elements on the page
+## Technologies Used
 
-### Screenshot
+- **HTML5**: For structuring the profile page.
+- **CSS3**: For styling and responsive design.
 
-![](./screenshot-1.png)
+## Installation
 
-### Links
+1. Clone the repository:
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+    ```bash
+    git clone https://github.com/bkrcokan13/Social-Links-Profile.git
+    cd Social-Links-Profile
+    ```
 
-### Built with
+2. Open `index.html` in your browser. (You can use extensions like **Live Server** for Visual Studio Code to launch a local development server for easier testing and development.)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
+## Usage
 
+1. Open the `index.html` file in your browser to view the Social Links Profile page.
+2. Customize the profile information and social media links as needed.
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+## Screenshot
 
-### What I learned
+Here is a screenshot of the Social Links Profile page:
 
-It helped me to ensure mobile compatibility and to better understand the flex structure, HTML and CSS structure.
+![Social Links Profile Screenshot](screenshot-1.png)
 
-## Author
-- Frontend Mentor - [@bkrcokan13](https://www.frontendmentor.io/profile/bkrcokan13)
-- Linkedin - [@bkrcokan](https://www.linkedin.com/in/bkrcokan/)
+## License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Contact
+
+Created by [Okan Bakırcı](https://github.com/bkrcokan13) - feel free to contact me!
